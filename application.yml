@@ -1,9 +1,9 @@
 spring:
   datasource:
-    uri: jdbc:mysql://localhost:3306/mydbtest?createDatabaseIfNotExist=true
-    username: kolian0071
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    uri: jdbc:postgresql://localhost:5432/rentDB
+    username: postgres
+    password: 123654
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       naming:
